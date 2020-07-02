@@ -20,7 +20,7 @@ import java.util.Base64;
 @Component
 public class AESCipher {
 
-	private static final String CIPHER_TYPE = "AES";//所用到的加密算法类型
+	private static final String CIPHER_TYPE = "AES"; // 所用到的加密算法类型
 	private Base64.Encoder encoder;
 	private Base64.Decoder decoder;
 	

@@ -1797,7 +1797,7 @@ function fixEvent(event) {
     // IE8 Doesn't like when you mess with native event properties
     // Firefox returns false for event.hasOwnProperty('type') and other props
     //  which makes copying more difficult.
-    //  : Probably best to create a whitelist of event props
+    // TODO: Probably best to create a whitelist of event props
     for (var key in old) {
       // Safari 6.0.3 warns you if you try to copy deprecated layerX/Y
       // Chrome warns you if you try to copy deprecated keyboardEvent.keyLocation
@@ -4175,7 +4175,7 @@ var Component = function () {
 
     // No px so using % or no style was set, so falling back to offsetWidth/height
     // If component has display:none, offset will return 0
-    //  : handle display:none and no dimension style using px
+    // TODO: handle display:none and no dimension style using px
     return parseInt(this.el_['offset' + toTitleCase(widthOrHeight)], 10);
   };
 
@@ -4357,7 +4357,7 @@ var Component = function () {
       couldBeTap = false;
     };
 
-    //  : Listen to the original target. http://youtu.be/DujfpXOKUp8?t=13m8s
+    // TODO: Listen to the original target. http://youtu.be/DujfpXOKUp8?t=13m8s
     this.on('touchleave', noTap);
     this.on('touchcancel', noTap);
 
@@ -8625,7 +8625,7 @@ function determineBidi(cueDiv) {
     var node = nodeStack.pop(),
         text = node.textContent || node.innerText;
     if (text) {
-      //  : This should match all unicode type B characters (paragraph
+      // TODO: This should match all unicode type B characters (paragraph
       // separator characters). See issue #115.
       var m = text.match(/^.*(\n|\r)/);
       if (m) {
@@ -11149,7 +11149,7 @@ Tech.withSourceHandlers = function (_Tech) {
   /**
    * Returns the first source handler that supports the source.
    *
-   *  : Answer question: should 'probably' be prioritized over 'maybe'
+   * TODO: Answer question: should 'probably' be prioritized over 'maybe'
    *
    * @param {Tech~SourceObject} source
    *        The source object
@@ -13345,7 +13345,7 @@ Component.registerComponent('RemainingTimeDisplay', RemainingTimeDisplay);
 /**
  * @file live-display.js
  */
-//   - Future make it click to snap to live
+// TODO - Future make it click to snap to live
 
 /**
  * Displays the live indicator when duration is Infinity.
@@ -15425,7 +15425,7 @@ var MuteToggle = function (_Button) {
       level = 2;
     }
 
-    //   improve muted icon classes
+    // TODO improve muted icon classes
     for (var i = 0; i < 4; i++) {
       removeClass(this.el_, 'vjs-vol-' + i);
     }
@@ -15944,7 +15944,7 @@ var MenuButton = function (_Component) {
       menuButtonClass += '-popup';
     }
 
-    //  : Fix the CSS so that this isn't necessary
+    // TODO: Fix the CSS so that this isn't necessary
     var buttonClass = Button.prototype.buildCSSClass();
 
     return 'vjs-menu-button ' + menuButtonClass + ' ' + buttonClass + ' ' + _Component.prototype.buildCSSClass.call(this);
@@ -16283,7 +16283,7 @@ var MenuItem = function (_ClickableComponent) {
     _this.selected(options.selected);
 
     if (_this.selectable) {
-      //  : May need to be either menuitemcheckbox or menuitemradio,
+      // TODO: May need to be either menuitemcheckbox or menuitemradio,
       //       and may need logical grouping of menu items.
       _this.el_.setAttribute('role', 'menuitemcheckbox');
     } else {
@@ -19726,7 +19726,7 @@ Html5.prototype.featuresPlaybackRate = Html5.canControlPlaybackRate();
  */
 Html5.prototype.movingMediaElementInDOM = !IS_IOS;
 
-//  : Previous comment: No longer appears to be used. Can probably be removed.
+// TODO: Previous comment: No longer appears to be used. Can probably be removed.
 //       Is this true?
 /**
  * Boolean indicating whether the `HTML5` tech currently supports automatic media resize
@@ -20935,7 +20935,7 @@ var Player = function (_Component) {
       _this.addClass('vjs-no-flex');
     }
 
-    //  : Make this smarter. Toggle user state between touching/mousing
+    // TODO: Make this smarter. Toggle user state between touching/mousing
     // using events, since devices can have both touch and mouse events.
     // if (browser.TOUCH_ENABLED) {
     //   this.addClass('vjs-touch-enabled');
@@ -21682,7 +21682,7 @@ var Player = function (_Component) {
 
 
   Player.prototype.handleTechLoadStart_ = function handleTechLoadStart_() {
-    //  : Update to use `emptied` event instead. See #1277.
+    // TODO: Update to use `emptied` event instead. See #1277.
 
     this.removeClass('vjs-ended');
     this.removeClass('vjs-seeking');

@@ -1650,7 +1650,7 @@ function doupload(count) {
 				pingInt = null;
 			}
 			if (xhr.status === 200) {
-				//   上传成功
+				// TODO 上传成功
 				var result = xhr.responseText;
 				if (result == "uploadsuccess") {
 					$("#uls_" + count).text("[已完成]");
@@ -1930,7 +1930,7 @@ function showPicture(fileId) {
 		success : function(result) {
 			if (result != "ERROR") {
 				pvl = eval("(" + result + ")");
-				//   整合viewer.js插件
+				// TODO 整合viewer.js插件
 				if (pvl.pictureViewList.length <= viewerPageSize) {
 					createViewList();// 以全列方式显示图片列表
 				} else {
@@ -2241,7 +2241,7 @@ function showDeleteAllCheckedModel() {
 
 // 删除选中的所有文件
 function deleteAllChecked() {
-	//   提交全部删除请求
+	// TODO 提交全部删除请求
 	var faf = getCheckedFilesAndFolders();
 	$("#dfmbutton").attr('disabled', true);
 	$("#cancelDeleteFileBox").attr('disabled', true);
@@ -3308,7 +3308,7 @@ function iteratorImport(i, newFolderName) {
 				pingInt = null;
 			}
 			if (xhr.status === 200) {
-				//   上传成功
+				// TODO 上传成功
 				var result = xhr.responseText;
 				if (result == "uploadsuccess") {
 					$("#ils_" + i).text("[已完成]");

@@ -20,15 +20,15 @@ https://www.yuque.com/duyumingx/optogw
 软件的部署环境（服务器端）暂定为Ubuntu18.04 64位，tomcat8.0, Apache HTTP Server2.4, JRE8.0
 
 ### 文档开发计划
-- 项目开发版本记录和管理记录
-- 项目初步想法
-- 开发日报
-- SS-TCDS-SCMP-1.0 (E) 项目配置管理计划
-- SS-TCDS-SRS-1.0 (E) 软件需求规格说明
-- SS-TCDS-SADD-1.0 (E) 软件 (结构) 设计说明
-- SS-TCDS-SDP-1.0 (E) 软件开发计划
-- SS-TCDS-DBDD-1.0 (E) 数据库 (顶层) 设计说明
-- SS-TCDS-STP-1.0 (E) 软件测试计划
-- SS-TCDS-STD-1.0 (E) 软件测试报告
-- SS-TCDS-SUM-1.0 (E) 软件用户手册
-- SS-TCDS-SUM-2.0 (E) 软件用户手册
+- 《项目开发版本记录和管理记录》
+- 《项目初步想法》
+- 《开发日报》
+- 《SS-TCDS-SCMP-1.0 (E) 项目配置管理计划》
+- 《SS-TCDS-SRS-1.0 (E) 软件需求规格说明》
+- 《SS-TCDS-SADD-1.0 (E) 软件 (结构) 设计说明》
+- 《SS-TCDS-SDP-1.0 (E) 软件开发计划》
+- 《SS-TCDS-DBDD-1.0 (E) 数据库 (顶层) 设计说明》
+- 《SS-TCDS-STP-1.0 (E) 软件测试计划》
+- 《SS-TCDS-STD-1.0 (E) 软件测试报告》
+- 《SS-TCDS-SUM-1.0 (E) 软件用户手册》
+- 《SS-TCDS-SUM-2.0 (E) 软件用户手册》

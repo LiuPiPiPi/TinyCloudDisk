@@ -41,5 +41,5 @@ https://www.yuque.com/duyumingx/optogw
 - 《SS-TCDS-CRR-1.0（E） 代码走查报告》
 - 《SS-TCDS-CRR-2.0（E） 代码走查报告》
 - 《SS-TCDS-STR-1.0（E） 软件测试报告》
-- 《SS-TCDSSTR-2.0（E） 软件测试报告》
+- 《SS-TCDS-STR-2.0（E） 软件测试报告》
 - 《周工作报告》

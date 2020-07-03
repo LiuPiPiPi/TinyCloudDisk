@@ -7,7 +7,7 @@
     <version>1.0.34-RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>TCDS</name>
+    <name>Tiny Cloud Disk System</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

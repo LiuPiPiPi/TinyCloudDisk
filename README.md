@@ -20,26 +20,15 @@ https://www.yuque.com/duyumingx/optogw
 软件的部署环境（服务器端）暂定为Ubuntu18.04 64位，tomcat8.0, Apache HTTP Server2.4, JRE8.0
 
 ### 文档开发计划
-- 《SS-TCDS-SDP-1.0（E） 软件开发计划》
-- 《SS-TCDS-FAR-1.0（E） 可行性分析报告》
-- 《SS-TCDS-PSS-1.0（E） 项目解决方案》
-- 《SS-TCDS-SUM-1.0（E） 软件用户手册》
-- 《SS-TCDS-PDSR-1.0（E） 项目开发总结报告》
-- 《SS-TCDS-PAAR-1.0（E） 项目验收申请报告》
-- 《SS-TCDS-SFT-1.0（E） 软件功能列表》
-- 《SS-TCDS-SFT-2.0（E） 软件功能列表》
-- 《SS-TCDS-UIDD-1.0（E） 用户界面设计说明》
-- 《SS-TCDS-UIDD-2.0（E） 用户界面设计说明》
-- 《SS-TCDS-SADD-1.0（E） 软件结构设计说明》
-- 《SS-TCDS-SADD-2.0（E） 软件结构设计说明》
-- 《SS-TCDS-SPDD-1.0（E） 软件物理设计说明》
-- 《SS-TCDS-SPDD-2.0（E） 软件物理设计说明》
-- 《SS-TCDS-MTC-1.0（E） 模块测试用例》
-- 《SS-TCDS-MTC-2.0（E） 模块测试用例》
-- 《SS-TCDS-ITC-1.0（E） 集成测试用例》
-- 《SS-TCDS-ITC-2.0（E） 集成测试用例》
-- 《SS-TCDS-CRR-1.0（E） 代码走查报告》
-- 《SS-TCDS-CRR-2.0（E） 代码走查报告》
-- 《SS-TCDS-STR-1.0（E） 软件测试报告》
-- 《SS-TCDS-STR-2.0（E） 软件测试报告》
-- 《周工作报告》
+- 项目开发版本记录和管理记录
+- 项目初步想法
+- 开发日报
+- SS-TCDS-SCMP-1.0 (E) 项目配置管理计划
+- SS-TCDS-SRS-1.0 (E) 软件需求规格说明
+- SS-TCDS-SADD-1.0 (E) 软件 (结构) 设计说明
+- SS-TCDS-SDP-1.0 (E) 软件开发计划
+- SS-TCDS-DBDD-1.0 (E) 数据库 (顶层) 设计说明
+- SS-TCDS-STP-1.0 (E) 软件测试计划
+- SS-TCDS-STD-1.0 (E) 软件测试报告
+- SS-TCDS-SUM-1.0 (E) 软件用户手册
+- SS-TCDS-SUM-2.0 (E) 软件用户手册
